@@ -1,0 +1,169 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="itesm.mx.ariqmov"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    
+    
+    
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+         <activity
+            android:name=".TecLogo"
+            android:label="@string/menu" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">           
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Menu"
+            android:label="@string/menu" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+            
+        </activity>
+        
+           <activity
+            android:name=".FirstLevel"
+            android:label="@string/nivel1" >
+            
+        </activity>
+        
+        <activity
+            android:name=".PantallaJuego"
+            android:label="@string/atrapa" 
+            android:screenOrientation = "landscape"
+            android:configChanges="keyboardHidden|screenLayout|orientation">     
+        </activity>
+        
+           <activity
+            android:name=".SeleccionaJuego"
+            android:label="@string/minijuegos" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+            
+        </activity>
+        
+          <activity
+            android:name=".MenuJuegoDispara"
+            android:label="@string/dipara" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+        <activity
+            android:name=".MenuCompleta"
+            android:label="@string/completa" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+        <activity
+            android:name=".MenuAtrapa"
+            android:label="@string/atrapa" 
+            android:screenOrientation = "landscape"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+        <activity
+            android:name=".Jugar"
+            android:label="@string/niveles" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+        
+           <activity
+            android:name=".Instrucciones"
+            android:label="@string/instrucciones"
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation" >
+        </activity>
+        
+         <activity
+            android:name=".AcercaDe"
+            android:label="@string/acerca" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+            
+        </activity>
+          <activity
+            android:name=".Ajustes"
+            android:label="@string/ajustes" >
+            
+        </activity>
+          <activity
+            android:name=".SecondLevel"
+            android:label="@string/nivel2" >
+            
+        </activity>
+          <activity
+            android:name=".ThirdLevel"
+            android:label="@string/nivel3" >
+        </activity>
+        
+          <activity
+            android:name=".WebPuntajes"
+            android:label="@string/puntajes" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+
+          <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".Puntajes"
+            android:label="@string/puntajes" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+           <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".Guardar"
+            android:label="@string/puntajes" 
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">
+        </activity>
+        
+            <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".RegistroGuardado"
+            android:label="@string/strOk"
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">          
+        </activity>
+        
+            <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".NoConexion"
+            android:label="@string/strNoConexion"
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">           
+        </activity>
+        
+            <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".Calibrar"
+            android:label="@string/strCalibrar"
+            android:screenOrientation = "portrait"
+            android:configChanges="keyboardHidden|screenLayout|orientation">           
+        </activity>
+        
+        
+    </application>
+
+</manifest>

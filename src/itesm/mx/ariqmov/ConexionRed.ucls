@@ -1,0 +1,61 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="itesm.mx.ariqmov.Guardar" project="aritmos" 
+    file="/aritmos/src/itesm/mx/ariqmov/Guardar.java" binary="false">    
+    <position height="-1" width="-1" x="135" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="itesm.mx.ariqmov.RegistroGuardado" project="aritmos" 
+    file="/aritmos/src/itesm/mx/ariqmov/RegistroGuardado.java" binary="false">    
+    <position height="94" width="150" x="334" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="itesm.mx.ariqmov.WebPuntajes" project="aritmos" 
+    file="/aritmos/src/itesm/mx/ariqmov/WebPuntajes.java" binary="false">    
+    <position height="-1" width="-1" x="645" y="162"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="itesm.mx.ariqmov.NoConexion" project="aritmos" 
+    file="/aritmos/src/itesm/mx/ariqmov/NoConexion.java" binary="false">    
+    <position height="111" width="159" x="69" y="272"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="itesm.mx.ariqmov.RequestTask" project="aritmos" 
+    file="/aritmos/src/itesm/mx/ariqmov/RequestTask.java" binary="false">    
+    <position height="-1" width="-1" x="392" y="334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="android.os.AsyncTask" project="aritmos" 
+    file="/Users/luiscarlostovar/android-sdks/platforms/android-8/android.jar" binary="true">    
+    <position height="-1" width="-1" x="686" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

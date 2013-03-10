@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="app_name">aritmos </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu">Aritmos</string>
+    <string name="niveles">Niveles</string>
+    <string name="dipara">Minijuego Dispara</string>
+    <string name="atrapa">Minijuego Atrapa Operaciones</string>
+    <string name="completa">Minijuegos Completa Operaciones</string>
+    <string name="minijuegos">Minijuegos</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="acerca">Acerca De</string>
+    <string name="puntajes">Puntajes</string>
+    <string name="nivel1">Primer Nivel</string>
+    <string name="nivel2">Segundo Nivel</string>
+    <string name="nivel3">Tercer Nivel</string>
+    <string name="strOk">Puntaje Guardado</string>
+    <string name="strAviso">No se podrá accesar/guardar tu puntaje porque no cuentas con conexión a Internet</string>
+    <string name="strNoConexion">No Conexión</string>
+    <string name="strCalibracion">Al empezar el minijuego coloca el celular en la forma que quieras jugar el minijuego</string>
+    <string name="strCalibrar">Calibrar</string>
+    <string name="lblAcercaDe">
+    \n  1163951 Amilcar Andrade 
+    \n  1167511 Luis Tovar Garcia 
+    \n  1169264 Mario Esquivel  
+    \n
+    \n  A01163951@itesm.mx
+    \n  A01167511@itesm.mx
+    \n  A01169264@itesm.mx
+    \n
+    \n aritmos.herokuapp.com
+    \n
+    \n  Versión: 1.0 
+    \n  Copyright 2012, ITESM-CEM 
+    </string>
+    
+      <string name="lblInstrucciones">\nJuega cada uno de los minijuegos y trata de obtener el mayor puntaje en los distintos niveles.
+    \n
+    \nLos minijuegos consiten en resolver operaciones aritméticas en el menor tiempo posible.
+\n
+\nEntre más preguntas
+correctas contestes obtendrás un mejor puntaje. </string>
+    
+      <string name="checkEfectos">Efectos</string>
+    
+      <string name="checkMusic">Música</string>
+    
+      <string name="puntaje">"Tu puntaje fue: "</string>
+    
+      <string name="guardar">¿Deseas guardar tu puntaje?</string>
+    
+      <string name="confirmacion">Si</string>
+    
+      <string name="No">No</string>
+    
+      <string name="nombre">*Nombre</string>
+    
+      <string name="strNickname">*Nickname</string>
+    
+      <string name="strEmail">*Email</string>
+    
+      <string name="strGuardar">Guardar</string>
+    
+      <string name="strRequerido">Campo Requerido</string>
+    
+      <string name="strContinuar">Continuar</string>
+    
+      <string name="strRegresar">Regresar</string>
+    
+      <string name="strNivelSeleccionado">*Nivel Seleccionado</string>
+    
+
+</resources>
